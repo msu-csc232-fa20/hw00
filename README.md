@@ -1,10 +1,10 @@
-# hw00
+# lab00
 
 This non-graded assignment is used just to get students linked into the CSC232 GitHub Classroom managed by Jim Daehn.
 
 _As suggested in the previous sentence, this is a non-graded assignment. Whether you choose to work on this or not is your perrogative. The end-goal of this assignment is to simply link you to my GitHub classroom. This will happen simply by virtue of you following the assignment link provided to you by your instructor._
 
-**Please note**: This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-fa20/hw00/issues](https://github.com/msu-csc232-fa20/hw00/issues).
+**Please note**: This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-fa20/lab00/issues](https://github.com/msu-csc232-fa20/lab00/issues).
 
 ## Goals
 
@@ -65,24 +65,24 @@ When you tap on that button, you actually have two different options for cloning
 Once you have obtained the repository's URL, cloning is done by simply executing the following `git` command:
 
 ```bash
-git clone https://github.com/msu-csc232-fa20/hw00-your-github-username.git
+git clone https://github.com/msu-csc232-fa20/lab00-your-github-username.git
 ```
 
 Please note the following:
 
-1. The above command assumes the name of the repository is `hw00-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `hw00` (for homework 0) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
+1. The above command assumes the name of the repository is `lab00-your-github-username`. When your instructor creates assignments, they'll always have a prefix like `lab00` (for homework 0) followed by a hyphen followed by your GitHub username. As such, you shouldn't type that command verbatim. Instead, substitute the URL following the word `clone` with whatever you copied by tapping on the clone button on your repository when viewewd online in GitHub.
 1. Before issuing this `git` command, it is assumed you have navigated to the folder in which you want this repository cloned. For example, before doing this, you may want to create a "working" directory for this class with the following commands:
 
 ```bash
 $ mkdir -p csc232/hw
 $ cd csc232/hw
-$ git clone https://github.com/msu-csc232-fa20/hw00-your-github-username.git
-Cloning into 'hw00-your-github-username.git'...
+$ git clone https://github.com/msu-csc232-fa20/lab00-your-github-username.git
+Cloning into 'lab00-your-github-username.git'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (5/5), done.
-$ cd hw00-your-github-username
+$ cd lab00-your-github-username
 ```
 
 Again, in the above commands, one does not type the `$`. Any lines shown without the leading `$` are output from one of the commands. Also, when executing the `git` command, you may be prompted to (minimally) log in to GitHub as shown here:
@@ -93,7 +93,7 @@ Also, if you've set up two-factor authentication (something you should do with a
 
 ![Multifactor Authentication](two-factor-auth.png)
 
-When you're all said and done, you'll be in the csc232/hw/hw00-your-github-username directory. This cloned directory is what will be referred to as your "working directory."
+When you're all said and done, you'll be in the csc232/hw/lab00-your-github-username directory. This cloned directory is what will be referred to as your "working directory."
 
 ### Creating a develop branch
 
@@ -199,7 +199,7 @@ Compressing objects: 100% (5/5), done.
 Writing objects: 100% (6/6), 2.26 KiB | 578.00 KiB/s, done.
 Total 6 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
-To github.com:msu-csc232/hw00-your-github-username.git
+To github.com:msu-csc232/lab00-your-github-username.git
  * [new branch]      develop -> develop
 Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 
@@ -234,7 +234,7 @@ Once you've done this, _do not merge_ until your instructor as approved the pull
 To complete this assignment, one must:
 
 1. Accept the assignment delivered to you (i.e., visit the URL given)
-1. Clone their `hw00-*` repository.
+1. Clone their `lab00-*` repository.
 1. Create a `develop` branch within in which to do your work.
 1. Modify a [file](version.txt) with a simple change and commit your changes.
 1. Create a new file in which you'll write a brief bio and outline your expectations for the class.
@@ -244,4 +244,4 @@ To complete this assignment, one must:
 
 ## Issues
 
-If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-fa20/hw00/issues](https://github.com/msu-csc232-fa20/hw00/issues) and tap on the "New Issue" button.
+If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-fa20/lab00/issues](https://github.com/msu-csc232-fa20/lab00/issues) and tap on the "New Issue" button.
